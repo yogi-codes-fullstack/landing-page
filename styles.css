@@ -88,7 +88,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    padding-bottom: 60px;
 }
 
 .info-2-title {
@@ -100,7 +100,6 @@ img {
 
 .bgColor-1 {
     background-color: white;
-    padding-bottom: 60px;
 }
 
 .bgColor-2 {
@@ -156,5 +155,16 @@ img {
 
 .info-4 {
     display: flex;
-    
+    background-color: #3882F6;
+    padding: 30px 0px;
+    margin: 90px auto;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    color: #F9FAF8;
+}
+
+.info-4 > .signup {
+    border: 2px solid #E5E7EB;
 }
