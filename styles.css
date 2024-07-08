@@ -3,13 +3,18 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
     background-color: #1F2937;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: "Roboto";  
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    width: 100%;
 }
+
+body > div > div {
+    width: 70%;
+    margin: 0 auto;
+}
+
 
 .header {
     display: flex;
@@ -17,15 +22,17 @@ body {
     align-items: center;
     color: #E5E7EB;
     font-size: 18px;
+    margin: 10px auto;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     color: #F9FAF8;
-    font-size: 24px;
+    flex: 1;
 }
 
 ul {
+    flex: 1;
     display: flex;
     list-style-type: none;
     padding: 0;
@@ -35,29 +42,26 @@ ul {
 
 .info {
     display: flex;
-    padding: 10px 0;
-    margin: 70px 0px;
     color: #E5E7EB;
     font-size: 18px;
     gap: 15px;
+    margin: 80px auto;
 }
 
 .hero-heading {
-    font-size: 48px;
+    font-size: 52px;
     font-weight: extra-bold;
-    font-size: 48px;
     color: #F9FAF8;
 }
 
 .hero-main-text {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    padding: 15px 0;
     flex: 1;
 }
 
@@ -71,16 +75,25 @@ img {
 .signup {
     background-color: #3882F6;
     border: none;
-    border-radius: 2px;
+    border-radius: 5px;
     text-align: center;
     padding: 3px 5px;
-    width: 120px;
+    width: 100px;
+    height: 30px;
     color: #F9FAF8;
 }
 
 .info-2 {
     display: flex;
     flex-direction: column;
+}
+
+.bgColor-1 {
+    background-color: white;
+}
+
+.bgColor-2 {
+    background-color: #E5E7EB;
 }
 
 .cards {
