@@ -36,7 +36,7 @@ ul {
     display: flex;
     list-style-type: none;
     padding: 0;
-    gap: 10px;
+    gap: 40px;
     text-decoration: none;
 }
 
@@ -86,10 +86,21 @@ img {
 .info-2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-2-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 25px auto;
 }
 
 .bgColor-1 {
     background-color: white;
+    padding-bottom: 60px;
 }
 
 .bgColor-2 {
@@ -98,7 +109,32 @@ img {
 
 .cards {
     display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    color: #363a42;
 }
+
+.card{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
 
 .info-3 {
     display: flex;
