@@ -1,0 +1,58 @@
+* {
+    font-family: "Roboto";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #1F2937;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.info {
+    display: flex;
+}
+
+.info-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+}
+
+.info-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-4 {
+    display: flex;
+
+}
